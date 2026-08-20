@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-  "startX": 0,
-  "startY": 0,
+  "startSceneId": "48d1117b-2e0d-483e-99e1-6647ec596820",
+  "startX": 9,
+  "startY": 14,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "right",
+  "startDirection": "up",
   "showCollisionExtraTiles": false,
   "showCollisionTileValues": false,
   "collisionLayerOpacity": 50,
@@ -112,5 +112,6 @@
   "romFilename": "",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],
-  "autoTileFlipEnabled": true
+  "autoTileFlipEnabled": true,
+  "webTemplate": ""
 }
