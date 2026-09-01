@@ -14,10 +14,11 @@
   "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 266,
-  "y": 96,
+  "x": 240,
+  "y": 40,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "da0bb719-cdb0-406b-b40a-38d61ecd0437"
 }
