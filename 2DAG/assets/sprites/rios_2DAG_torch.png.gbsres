@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f",
+  "name": "rios_2DAG_torch",
+  "symbol": "sprite_rios_2dag_torch",
+  "states": [
+    {
+      "id": "d0db8a4b-42f7-4989-8050-c3515bf14f60",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "7fe089c1-8319-49c3-aad0-d99a55c1e7e7",
+          "frames": [
+            {
+              "id": "7479d0a0-cf1a-455f-b76a-d026ea5fe474",
+              "tiles": [
+                {
+                  "id": "2e996761-9f7b-440d-8229-d5eaa101f49f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "260d2951-e99d-4a83-a679-e37d4878ffe7",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "966c07d6-99be-4c10-87c0-3d42e413524e",
+          "frames": [
+            {
+              "id": "7709104d-5534-4f58-97de-922e80905556",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "873a71e9-4912-47cc-9606-628a9b2071d8",
+          "frames": [
+            {
+              "id": "49ff380a-48d2-41db-8f62-65d57002b747",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "98e76c84-b152-4e36-83d7-99b90aa31e13",
+          "frames": [
+            {
+              "id": "ece67041-4206-4cd4-958c-128351657825",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d412e607-dd0f-4c70-b1db-f244d9fc64c2",
+          "frames": [
+            {
+              "id": "08b5f64e-2e02-4e4f-9599-d4151405dffd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "437152d6-87af-41fe-8660-ec3a6afd099b",
+          "frames": [
+            {
+              "id": "2f6f3e54-f6e6-4a18-a22f-dac3f1e68c46",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c1bfce30-362f-4344-93b0-e8fb9d437f42",
+          "frames": [
+            {
+              "id": "7b8bb63a-1cc3-49d5-8dc4-3330e213e0f4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4b93ee51-29e0-412c-87c8-706ec8a41865",
+          "frames": [
+            {
+              "id": "a7d4c6e4-86ec-497f-a73c-14353c4e060c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "rios_2DAG_torch.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "1341fbef5db420f286271fbcdd875b41ba68ec7d"
+}
