@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f3966685-081a-4f89-b47c-05c5f25ce4b3",
+  "name": "large_bg",
+  "symbol": "bg_large_bg",
+  "tileColors": "",
+  "filename": "large_bg.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

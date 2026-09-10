@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "d74c9f8a-15c5-4ea4-a1c2-a4b9961b75cc",
+  "name": "stalagmites",
+  "symbol": "sprite_stalagmites",
+  "states": [
+    {
+      "id": "aae33c3f-c639-412e-ae74-75d79d79dee6",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "15fe3111-69b2-4633-8ab1-ef790aba88af",
+          "frames": [
+            {
+              "id": "3552c1b7-1ce8-45d9-aabd-8fd9dece5a88",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fdc261df-f58b-4cb3-a35c-a2f7e59cdede",
+          "frames": [
+            {
+              "id": "cdaebd71-ff05-487a-aa67-6980381ff64b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "17133053-d3be-4a1d-9365-d72a9310e109",
+          "frames": [
+            {
+              "id": "8fafe8c3-6ffd-4cdc-b093-f63e1767db38",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ff7fbddb-f7e7-49a8-9ecd-4247a76b5499",
+          "frames": [
+            {
+              "id": "555a63f6-54a1-4e96-9b45-4aab52f3d988",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "01737d56-7f8e-4a0c-8442-854ef9913505",
+          "frames": [
+            {
+              "id": "4ec5a8b3-5b95-4b68-bdaf-aac7034048e6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ef8ea571-dbd7-4f56-9d75-4124448ac514",
+          "frames": [
+            {
+              "id": "17e1d981-872b-4588-b924-dbf901631814",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f966e171-d144-4192-b051-0fbab4079d8a",
+          "frames": [
+            {
+              "id": "e0779de9-178e-4fd8-ac3d-e67aeb9dba24",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b25e47a9-ab17-4c50-b6eb-c74643cef86a",
+          "frames": [
+            {
+              "id": "8b006db7-46a6-4404-a390-e0bb962d1c5e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "stalagmites.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "af746083cb7eeb854a01b369f8f6f5c60f259472"
+}

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "d1a031ff-0f10-4870-ab4f-08b3f03f9c6b",
+  "name": "muralSign",
+  "symbol": "sprite_muralsign",
+  "states": [
+    {
+      "id": "35a277fd-a5f2-4a5a-b3f1-7ecf49f4f1d1",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b00e11e8-b029-449a-b763-3c7d952d6aa5",
+          "frames": [
+            {
+              "id": "7a71feaf-d288-4e36-83a0-5758a63b4f94",
+              "tiles": [
+                {
+                  "id": "72a7ce3e-e095-4298-ac84-aff0998b1dac",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "bed48625-96b7-46ac-88c1-34cd978ad698",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f45f6539-0686-4a5e-806b-6b44bcb3abc3",
+          "frames": [
+            {
+              "id": "4fbf846f-70fd-4e48-97b4-5a34c7768a4e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "116ffbfe-2105-4010-9aac-aca5610ce4ab",
+          "frames": [
+            {
+              "id": "9b27fb5b-5e42-481c-a299-c41c906117c6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "99fe5483-e9c9-4bc7-927e-4ae790b19831",
+          "frames": [
+            {
+              "id": "da8275dd-f3cc-47dc-9b31-cc3845e25db8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19001a75-4145-4df6-a555-455d5a9c0ef9",
+          "frames": [
+            {
+              "id": "bee5dcb5-d4aa-4d68-b5db-347d53a8fa47",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "49a62055-5512-461d-8027-664242a1c80a",
+          "frames": [
+            {
+              "id": "4f867bd3-d3ca-41df-b437-99787ae9e022",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "36ad8a5c-aacc-4cb4-86e7-bf1678cbf4b4",
+          "frames": [
+            {
+              "id": "e18728ca-66e7-4232-94b5-bf49f301ad55",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0768ea79-d478-4b66-a6b4-19145652a512",
+          "frames": [
+            {
+              "id": "4f991d92-a02d-4318-adcd-7d9a7509b126",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "muralSign.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "e38ac83d8d08f60a72f1968aba8154cc0a7fefbf"
+}
