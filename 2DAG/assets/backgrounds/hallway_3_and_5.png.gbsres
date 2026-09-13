@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7136c993-54f0-4fa6-b0d6-a687906759af",
+  "name": "hallway_3_and_5",
+  "symbol": "bg_hallway_3_and_5",
+  "tileColors": "",
+  "filename": "hallway_3_and_5.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

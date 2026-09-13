@@ -7,77 +7,104 @@
     {
       "id": "aae33c3f-c639-412e-ae74-75d79d79dee6",
       "name": "",
-      "animationType": "multi_movement",
-      "flipLeft": true,
+      "animationType": "fixed",
+      "flipLeft": false,
       "animations": [
         {
-          "id": "15fe3111-69b2-4633-8ab1-ef790aba88af",
+          "id": "944deced-1791-4e95-8fac-445d268fd13d",
           "frames": [
             {
-              "id": "3552c1b7-1ce8-45d9-aabd-8fd9dece5a88",
+              "id": "bbda3e20-51ad-44f9-90ff-dba6de5cf362",
+              "tiles": [
+                {
+                  "id": "f5939f8b-4eb2-450d-a52e-58fbf04d9751",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "f023f04b-4022-4a3a-8ca7-47d6c7f2f2d0",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3271a53a-e01d-461a-b57a-1ca694c3be8b",
+          "frames": [
+            {
+              "id": "8699404d-185a-42dd-a2bd-b309275edcec",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fdc261df-f58b-4cb3-a35c-a2f7e59cdede",
+          "id": "104c5627-5c74-4680-bf37-bbbcfca2f282",
           "frames": [
             {
-              "id": "cdaebd71-ff05-487a-aa67-6980381ff64b",
+              "id": "3612d135-b043-4edd-a11c-8750f3fd8bca",
               "tiles": []
             }
           ]
         },
         {
-          "id": "17133053-d3be-4a1d-9365-d72a9310e109",
+          "id": "73c82770-07a5-4220-9636-661e8cceb4d0",
           "frames": [
             {
-              "id": "8fafe8c3-6ffd-4cdc-b093-f63e1767db38",
+              "id": "5640e70f-3adc-444c-9749-f0df70f7cead",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ff7fbddb-f7e7-49a8-9ecd-4247a76b5499",
+          "id": "f39c3dcb-be33-4216-adfa-2493f9a9b1fb",
           "frames": [
             {
-              "id": "555a63f6-54a1-4e96-9b45-4aab52f3d988",
+              "id": "39ae9f6e-64d0-4782-89e6-c0e278f16d69",
               "tiles": []
             }
           ]
         },
         {
-          "id": "01737d56-7f8e-4a0c-8442-854ef9913505",
+          "id": "a846c567-f200-4c11-a0ea-e48a6c37b7a9",
           "frames": [
             {
-              "id": "4ec5a8b3-5b95-4b68-bdaf-aac7034048e6",
+              "id": "4e9c35b3-0821-4cd1-b4d9-67093e959849",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ef8ea571-dbd7-4f56-9d75-4124448ac514",
+          "id": "056dc434-5190-46a7-8ecd-0af6a51ec75d",
           "frames": [
             {
-              "id": "17e1d981-872b-4588-b924-dbf901631814",
+              "id": "c7375d1c-50a8-4a80-830f-9d91bcb1ae0d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f966e171-d144-4192-b051-0fbab4079d8a",
+          "id": "8a6e5936-38f0-47ad-b4d5-fdb9fed3c7ee",
           "frames": [
             {
-              "id": "e0779de9-178e-4fd8-ac3d-e67aeb9dba24",
-              "tiles": []
-            }
-          ]
-        },
-        {
-          "id": "b25e47a9-ab17-4c50-b6eb-c74643cef86a",
-          "frames": [
-            {
-              "id": "8b006db7-46a6-4404-a390-e0bb962d1c5e",
+              "id": "3dc11bf6-ad8f-4527-a316-05c2acad5596",
               "tiles": []
             }
           ]
@@ -85,11 +112,11 @@
       ]
     }
   ],
-  "numTiles": 0,
+  "numTiles": 2,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": -8,
   "boundsWidth": 16,
@@ -98,5 +125,5 @@
   "filename": "stalagmites.png",
   "width": 16,
   "height": 16,
-  "checksum": "af746083cb7eeb854a01b369f8f6f5c60f259472"
+  "checksum": "cc96da6264daa20db0c52355a26fd91c8b515299"
 }

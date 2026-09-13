@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c67bbf9f-8e7e-4280-a2f0-02a23ad92732",
+  "name": "safeZone",
+  "symbol": "bg_safezone",
+  "tileColors": "",
+  "filename": "safeZone.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
