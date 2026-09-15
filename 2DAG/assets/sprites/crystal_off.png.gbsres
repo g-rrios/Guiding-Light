@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "4a2d0f17-8992-4163-a5ae-9f92c8b05a8f",
+  "name": "crystal_off",
+  "symbol": "sprite_crystal_off",
+  "states": [
+    {
+      "id": "97da77fb-cc55-47fc-a7a7-c2a66468767d",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "75f0ce9c-2470-4275-bc10-63b77da008d0",
+          "frames": [
+            {
+              "id": "9a5e1c99-e14f-4c6a-aa1f-6e9301e8513d",
+              "tiles": [
+                {
+                  "id": "97a99d61-0611-4313-8936-617e9a98496a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "891265a9-eaed-4ae4-aace-eec0377d2e14",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "63bd9a60-2102-4562-b264-d94de4393b13",
+          "frames": [
+            {
+              "id": "36267de5-93c4-4ba2-b8ad-1207896034d2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afc3b140-c407-484b-980c-e8bfbc8d74b3",
+          "frames": [
+            {
+              "id": "ef097bc5-00d9-4176-80fc-5efd624d3fe0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bec890cb-862f-4098-aa1c-b1cc53b8917b",
+          "frames": [
+            {
+              "id": "51c2ece8-e85e-46df-8273-40206150fbc5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cdf98bd4-50f3-41aa-aba9-cfe8cea7a20b",
+          "frames": [
+            {
+              "id": "ac0c18a2-7814-48ec-8630-f1052db633dc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55214f14-33d8-4b84-99fd-5b7f2a4ded0d",
+          "frames": [
+            {
+              "id": "fedc001f-3d5b-462c-b177-42a7177a39c7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "db0979b4-778e-4d17-ba78-26188ba87cb8",
+          "frames": [
+            {
+              "id": "a40908cd-26ae-489a-b19c-86bf30781048",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0b126844-d35e-4ca3-8135-9fce56a9a7f0",
+          "frames": [
+            {
+              "id": "bf05492a-11e4-4317-a25d-2d575fadc1ed",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "crystal_off.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "890f1aa4ca7e1a84007b65772e9330e5c39db287"
+}

@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "ad05f964-41b8-4fe1-a2df-2bd56ebaa695",
+  "name": "lit_torch_animation-Sheet",
+  "symbol": "sprite_lit_torch_animation_",
+  "states": [
+    {
+      "id": "0fda1f77-c715-49ab-a6c7-7f57e1646a7a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "39bee20a-4015-4aa3-8ae2-b91697cea7ac",
+          "frames": [
+            {
+              "id": "0c81a3dd-6674-4710-862b-4ac0946117bc",
+              "tiles": [
+                {
+                  "id": "0c04dfea-2c03-48e9-9357-fbc4d674a14a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "adf61d08-62a2-41e5-81ee-606e67433607",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "0285ddc6-ce8c-4f56-ac0b-318238c1689f",
+              "tiles": [
+                {
+                  "id": "412976dc-2140-4c67-aa22-316addc90016",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "becdaeb3-c32d-45a3-a0fa-7abc2e8f0ce8",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8679b68d-5503-4b39-a9dd-d6a1d507fe0e",
+          "frames": [
+            {
+              "id": "53c0a7ff-bb77-4a08-b100-a30318128def",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a680598-8b9e-4d1f-8dd0-018b1534d89d",
+          "frames": [
+            {
+              "id": "54b4ccae-8a46-4ab8-b57a-872cc0b05103",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a70ee839-dc03-4722-aea9-0738ee6bad8b",
+          "frames": [
+            {
+              "id": "4e389eb4-3839-4d0b-8dae-f803f90f5bc4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fc0ccabc-dc3a-4696-bf93-8aa084027d80",
+          "frames": [
+            {
+              "id": "c62fde9b-2909-4d94-88aa-e196fdf48169",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "06358dec-58ef-4a32-9514-3f3a79fa3514",
+          "frames": [
+            {
+              "id": "85e42182-2360-4850-812e-2ffb7952511d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3940bafc-988b-4cbf-b069-75d6ccc99240",
+          "frames": [
+            {
+              "id": "b465f580-8c12-4fcc-8790-895cc42ce178",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cdb8d95e-db0e-4b8e-93f8-937c783fba93",
+          "frames": [
+            {
+              "id": "aa93b6dc-b47b-4b1f-86ed-4d1269a05f6b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "lit_torch_animation-Sheet.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "478f34c9cec9d1e172f1dc9fed973f85b825ae6f"
+}

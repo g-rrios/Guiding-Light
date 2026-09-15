@@ -27,6 +27,37 @@
         "fadeSpeed": "2"
       },
       "id": "abeb6933-3d53-48b0-8718-07d27dbe3e36"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "4"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "5f5df193-b27d-49f2-a79d-47981cca793f"
+          }
+        ],
+        "false": []
+      },
+      "id": "4bc7e365-c69b-46ee-9444-f8ec0eb2007d"
     }
   ],
   "_index": 0

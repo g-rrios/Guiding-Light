@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "05e40abf-9263-4850-83b8-1fce45d69c62",
+  "name": "2DAG_npc-Sheet",
+  "symbol": "sprite_2dag_npc_sheet",
+  "states": [
+    {
+      "id": "d84d5a2d-7c4e-4ffa-b2a6-12a77b69d358",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "52528de9-209e-4755-a2b6-5a38db243f55",
+          "frames": [
+            {
+              "id": "5a184a45-cc18-41a3-a30a-cd1ffb22da57",
+              "tiles": [
+                {
+                  "id": "771ae60c-3b5a-4462-83ff-89cff3d17fa1",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "bd7f196b-3f83-4aae-b176-451a9be712c2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "7449e949-fe2f-4805-a3ab-37f537f8768c",
+              "tiles": [
+                {
+                  "id": "926b3e2d-ea7a-4ee8-8b5a-ca7bffd05db0",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ed1907b1-437b-4a64-b21f-d4df46011460",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "061f5828-8a07-4715-9983-91e116db811a",
+          "frames": [
+            {
+              "id": "d39b3304-942e-4eba-9bb0-e03451ec0779",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "653da016-b41b-40c2-bcd4-0f0d110972c3",
+          "frames": [
+            {
+              "id": "09e05a87-441b-40f3-8f19-9aeae34d32d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "621efdc1-059c-49be-84d5-d63343667334",
+          "frames": [
+            {
+              "id": "839e0634-7c4f-41e3-8b4b-186b0571540b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4baa4980-0bcd-44bb-8225-b2d47b6f9681",
+          "frames": [
+            {
+              "id": "ac2b0147-644c-4281-9430-6fc541b00dfd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "83c2db49-6ee4-4610-ad85-b9727897420e",
+          "frames": [
+            {
+              "id": "336ff797-94b3-4f96-9566-5e8fb434194e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d21b3e0c-3a27-491a-a9ce-3eb3142d5274",
+          "frames": [
+            {
+              "id": "90e3c56d-08ab-4f86-904c-644e28e40d5f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d24506ce-b238-424d-ba23-f48a55a1347e",
+          "frames": [
+            {
+              "id": "cda3c706-639b-4313-a336-471bb243e458",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "2DAG_npc-Sheet.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "cdf11a89c59728df5747e76a6dfda26fc8f813f2"
+}
