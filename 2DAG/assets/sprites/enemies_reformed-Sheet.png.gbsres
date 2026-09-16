@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "4bc2aa00-a348-4738-84cb-c64873e5a730",
+  "name": "enemies_reformed-Sheet",
+  "symbol": "sprite_enemies_reformed_she",
+  "states": [
+    {
+      "id": "e45f81e1-6ad6-4971-9ba2-4cf2b780f736",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "fb896b4c-86ae-41ec-9020-d6fc0a813197",
+          "frames": [
+            {
+              "id": "a39e0e9c-de95-47d3-a96d-94d8898a9fcc",
+              "tiles": [
+                {
+                  "id": "88a5a0a2-38f2-44d2-a55c-985053ad40ec",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "eed7818a-2d8c-4fba-b566-4c26fbb1f4b6",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "d79f17d2-49ea-4346-a6ef-a79b6152ee8f",
+              "tiles": [
+                {
+                  "id": "ca8b8824-150c-4e5d-b57d-690b45764bc8",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "7074c3db-e2e4-427f-a537-96790c6a42a9",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2bc37ec1-6c3a-46c6-a93e-6f82faa24367",
+          "frames": [
+            {
+              "id": "06428e29-65b9-4715-8482-49beaa1b9cf4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "24df6295-0687-4b69-8436-1cd74b474be8",
+          "frames": [
+            {
+              "id": "06b7ee8b-326a-40b7-8f43-b439054c3504",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a6a8be5a-878f-40ea-88fb-8b16c128e140",
+          "frames": [
+            {
+              "id": "21bf0885-6b0a-42bb-97ea-1d6f97114bd1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e9da6c6-a58b-4114-a3a6-4c4194cca381",
+          "frames": [
+            {
+              "id": "9b8d544f-e955-4181-83af-deb46e598766",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a293edcc-369a-4535-a514-f9df70a26304",
+          "frames": [
+            {
+              "id": "a289ce96-489d-4f23-9081-d17160e0d5fe",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0cefa955-fda0-4a0b-86a6-e279dd45af8d",
+          "frames": [
+            {
+              "id": "1e2246c6-0703-4a5c-9dd7-8463e25c46d3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9685fb65-d4d0-413c-bf46-76a3db06347b",
+          "frames": [
+            {
+              "id": "71704b0a-6041-4c7f-a629-4c8794e5a729",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "enemies_reformed-Sheet.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "22d51c42805e19729b96ea63b77fa923361ac0a2"
+}
