@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "0d7163cf-56f3-44c0-84bc-652ba3b49d6a",
+  "name": "lit_torch_animated",
+  "symbol": "sprite_lit_torch_animated",
+  "states": [
+    {
+      "id": "594a9cbe-e456-4a35-b123-bc324e3f7725",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "bd0bcdba-5579-4037-a003-a8b382bc3134",
+          "frames": [
+            {
+              "id": "47c2eb78-9c34-498c-b5e8-1bd60357d22b",
+              "tiles": [
+                {
+                  "id": "2cbe9186-1ab7-4601-bede-59207127c124",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b1cff991-a88c-42f0-9b22-b68907ae7e35",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "3ab97ea6-fb4f-423a-b896-645283de48fc",
+              "tiles": [
+                {
+                  "id": "50fb8300-d849-42e7-b273-b36f9a6f672e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "539a674e-6984-4aa2-9601-bdf37187d9bc",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fe474d79-814b-4953-8d72-a96ae390470c",
+          "frames": [
+            {
+              "id": "376ced6a-f306-448d-9d36-36c2125b92a3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "454994ce-6378-4909-82de-288b79818ea8",
+          "frames": [
+            {
+              "id": "c76a5a3c-f778-4d6e-a0d1-ed66af2a1f15",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1d233eb7-55e5-43d9-9894-a2e44c086eef",
+          "frames": [
+            {
+              "id": "878ae347-fae8-45f3-84ef-f103973b1af0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "72eacb1a-9c96-44c7-8ae7-e239c1159d4e",
+          "frames": [
+            {
+              "id": "d65e6345-4b24-43da-a304-920010e08789",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9a574e2f-bde4-4d6c-b49d-9134a8398a4b",
+          "frames": [
+            {
+              "id": "fb455840-5abc-404f-8cce-a9c41ce8c30d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d08057bf-d1ce-47a1-8359-de8826b91ac5",
+          "frames": [
+            {
+              "id": "ec4c6dbc-334e-495d-9de9-c82ad9c1b635",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a69b0ed-c457-4329-962e-071ae385eb49",
+          "frames": [
+            {
+              "id": "ced718d8-6da7-4f12-8e19-a6b4cab5edda",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "lit_torch_animated.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "75dcd194091e18fec2bacc328d0f77179c2c805a"
+}

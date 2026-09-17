@@ -16,13 +16,12 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_58",
-  "script": [],
-  "startScript": [
+  "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "<"
+          "(add hint to \npuzzle)"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,9 +40,10 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "3c68a6d6-77ba-4255-828f-60eb71d003cd"
+      "id": "99dcbdaa-b467-4b58-a60f-6067cb53c89d"
     }
   ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

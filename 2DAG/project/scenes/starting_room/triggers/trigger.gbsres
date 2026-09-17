@@ -27,6 +27,48 @@
         "fadeSpeed": "2"
       },
       "id": "abeb6933-3d53-48b0-8718-07d27dbe3e36"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "61d774d2-cbf8-4f55-879a-48cb8f2284c4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "2f7c2abf-7b78-4534-925a-cb7413287a0d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "5a4c91df-b219-4cc4-8be0-44419a4858d6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "3bbab77c-58a7-4aec-b537-cba3742c1e07"
     }
   ],
   "_index": 0

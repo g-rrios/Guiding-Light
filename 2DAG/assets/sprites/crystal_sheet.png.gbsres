@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "ceacfab2-0512-45a2-868a-2151fddff54c",
+  "name": "crystal_sheet",
+  "symbol": "sprite_crystal_sheet",
+  "states": [
+    {
+      "id": "c08a0610-c21b-4a9d-beed-2e14204ad049",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "a6d4a8d1-3b3e-4726-ad37-2cd9ccb3daa9",
+          "frames": [
+            {
+              "id": "779c1f6b-a441-447e-b733-3de2ff00a934",
+              "tiles": [
+                {
+                  "id": "97635e0b-8655-46c2-ba23-8e9fb8cc0765",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "6fe96823-8091-4fa8-85e6-3488cfc15e95",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "7ee9e3c5-b738-4d4c-8107-ded3e05ecfbc",
+              "tiles": [
+                {
+                  "id": "7c449719-edf7-4a00-baf5-f4e986d5084e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "152f72c4-cd1a-427b-9201-22dc9c7fa398",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a5a4c511-7c88-4146-a909-8ef5b7c7566e",
+          "frames": [
+            {
+              "id": "a19ee4d7-6757-46f1-b967-ae822832db02",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b875578-5105-44a0-a377-06689d399789",
+          "frames": [
+            {
+              "id": "e786b5c3-cacd-4165-8d39-ce597bce3688",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fbd5926c-2966-4471-be7c-4a07ea564102",
+          "frames": [
+            {
+              "id": "c5fa0654-6c78-4e23-b22a-0e67551ef537",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cb48d9b5-136a-48a4-91eb-eb5ff08d50f5",
+          "frames": [
+            {
+              "id": "3efddfdc-682a-4557-8f1d-d4bbf4b6585d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d8951d7-7442-4dc5-a919-364ab1b31e85",
+          "frames": [
+            {
+              "id": "e798c253-1079-4a7d-a010-65c8001251cc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7fd6f920-1030-4c3c-9ab2-cc79cadca48f",
+          "frames": [
+            {
+              "id": "a830a56a-ebdf-4a42-bf1f-3bbb170f8bef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3a122c03-8d0d-431d-92a3-ab720bb7daa8",
+          "frames": [
+            {
+              "id": "fd842628-a78e-4930-a349-c63364e5f95a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "crystal_sheet.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "5dd30de559f388d2e2c35364d7f0baa4403c8f84"
+}

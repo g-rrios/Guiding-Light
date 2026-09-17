@@ -33,13 +33,13 @@
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": "var_quest3"
+      "name": "crystalOn",
+      "symbol": "var_crystalon"
     },
     {
       "id": "7",
-      "name": "Quest4",
-      "symbol": "var_quest4"
+      "name": "crystalOff",
+      "symbol": "var_crystaloff"
     },
     {
       "id": "8",
@@ -78,8 +78,128 @@
     },
     {
       "id": "594274e6-bfa7-42cb-9163-25532699275b__L0",
+      "name": "litTorch",
+      "symbol": "var_littorch_1"
+    },
+    {
+      "id": "594274e6-bfa7-42cb-9163-25532699275b__L1",
+      "name": "unlitTorch",
+      "symbol": "var_unlittorch"
+    },
+    {
+      "id": "f303d95a-71ad-48df-8583-9b13bd32c0bd__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch"
+    },
+    {
+      "id": "258f2bff-c14d-4e98-8d0e-73249dcd969c__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_1"
+    },
+    {
+      "id": "9eef410d-064e-49ee-ae13-0f79ad393f0d__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_2"
+    },
+    {
+      "id": "5569b197-9b15-4ce6-af74-578588097ff8__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_3"
+    },
+    {
+      "id": "f4c242fd-9107-48bc-88e1-73616eb82bdf__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_4"
+    },
+    {
+      "id": "78d70567-59fd-4d7e-93fb-6f6561e0e964__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_5"
+    },
+    {
+      "id": "42575831-8b08-41e4-8f72-51bccb74bf0d__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_6"
+    },
+    {
+      "id": "3f6ffa61-8632-45fa-a410-4e449ea314fd__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_7"
+    },
+    {
+      "id": "c2b04070-ac83-4d96-bcbd-a93f04f4a915__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_8"
+    },
+    {
+      "id": "023d61dd-2286-4dad-8439-ac25a0daf382__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_9"
+    },
+    {
+      "id": "b27e538e-9b01-4bc8-8485-53a737333cff__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_10"
+    },
+    {
+      "id": "04d53b4f-ce05-491c-9843-c7957abf99c6__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_11"
+    },
+    {
+      "id": "ace8c813-2779-48bd-b14b-d2fe1a334008__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_12"
+    },
+    {
+      "id": "b7db7903-14fe-495f-aab0-841cdf3d7eaa__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_13"
+    },
+    {
+      "id": "559c0976-e12d-4c53-9005-fc4755b42ec7__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_14"
+    },
+    {
+      "id": "4a5545db-0810-4ae3-aed1-16b83bb8f213__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "0c2c7627-0e2e-4556-ba55-22f3179cbf3e__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_15"
+    },
+    {
+      "id": "7cc6a404-8ac9-482e-bae6-7497b15919b0__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_16"
+    },
+    {
+      "id": "a6710821-475e-483b-a4e5-d550a0e555ec__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_17"
+    },
+    {
+      "id": "7369c49d-4e1f-432d-8946-0d7b355e1fe8__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_18"
+    },
+    {
+      "id": "7807c539-49c4-4210-9f09-c53f5ce5634d__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_19"
+    },
+    {
+      "id": "6349db70-df4d-484d-b789-22c13b66a72d__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_20"
+    },
+    {
+      "id": "e551996d-b84d-4768-9b42-1e8da3d7c2ca__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_21"
     }
   ],
   "constants": []

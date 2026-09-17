@@ -1,29 +1,52 @@
 {
   "_resourceType": "actor",
-  "id": "60452c0b-72b1-4a02-9bdb-42c05cefe560",
+  "id": "fb0cefd8-ecb1-4381-b56d-c6e02fce1cef",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f",
+  "spriteSheetId": "b4975486-8708-4271-b956-61dc52850958",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
-  "animSpeed": 15,
+  "moveSpeed": 2,
+  "animSpeed": 63,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_21",
-  "script": [],
+  "symbol": "actor_78",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [
+          "walls",
+          "actors"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "d2bde745-0df1-41ff-9047-89e9d8dcd948"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 12,
-  "y": 11,
+  "x": 13,
+  "y": 18,
   "_index": 2
 }
