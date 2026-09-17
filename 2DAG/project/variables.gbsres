@@ -28,8 +28,8 @@
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "unlocksRoom",
+      "symbol": "var_unlocksroom"
     },
     {
       "id": "6",
@@ -70,6 +70,16 @@
       "id": "523b42e5-2e0b-4a2d-8fd0-e09ab643ecad__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_0"
+    },
+    {
+      "id": "594274e6-bfa7-42cb-9163-25532699275b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ],
   "constants": []

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
   "id": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
-  "name": "",
+  "name": "unlit torch",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
+  "spriteSheetId": "06a4dfeb-ae4f-4936-9071-d4e2946bac1c",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -18,12 +18,13 @@
   "symbol": "actor_18",
   "script": [
     {
-      "command": "EVENT_ACTOR_ACTIVATE",
+      "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "__collapse": false
+        "spriteStateId": "",
+        "loopAnim": true
       },
-      "id": "f2524525-d1c0-45e7-b5da-a67ebf414509"
+      "id": "874a4c05-dd16-45eb-9581-e5c8cda9d76d"
     }
   ],
   "startScript": [
@@ -31,7 +32,8 @@
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "$self$",
-        "spriteSheetId": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f"
+        "spriteSheetId": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f",
+        "__collapse": false
       },
       "id": "03c89390-6d17-41f1-8c6a-97e53f67fd02"
     }
