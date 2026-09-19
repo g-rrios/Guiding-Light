@@ -27,6 +27,17 @@
         "fadeSpeed": "2"
       },
       "id": "346134e8-9b0d-4cb4-9b8e-ebdc2ccb74f6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "4a49190e-d483-4bc7-a487-b7c1afec3c0e"
     }
   ],
   "_index": 1

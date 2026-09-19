@@ -43,13 +43,13 @@
     },
     {
       "id": "8",
-      "name": "Quest5",
-      "symbol": "var_quest5"
+      "name": "notLit",
+      "symbol": "var_notlit"
     },
     {
       "id": "9",
-      "name": "Quest6",
-      "symbol": "var_quest6"
+      "name": "litTorch1",
+      "symbol": "var_littorch1"
     },
     {
       "id": "10",
@@ -89,7 +89,7 @@
     {
       "id": "f303d95a-71ad-48df-8583-9b13bd32c0bd__L0",
       "name": "lightTorch",
-      "symbol": "var_lighttorch"
+      "symbol": "var_lighttorch_22"
     },
     {
       "id": "258f2bff-c14d-4e98-8d0e-73249dcd969c__L0",

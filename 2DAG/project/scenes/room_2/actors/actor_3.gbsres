@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_78",
@@ -20,7 +20,7 @@
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
-        "__section": "options",
+        "__section": "movement",
         "actorId": "$self$",
         "x": {
           "type": "number",
@@ -38,6 +38,23 @@
         "moveType": "horizontal"
       },
       "id": "d2bde745-0df1-41ff-9047-89e9d8dcd948"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f0a94c6e-403e-4acd-b4a6-00031cf064f7",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "e277774e-61a7-427a-a0e3-70a3e08958ca"
     }
   ],
   "startScript": [],
@@ -46,7 +63,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
-  "y": 18,
+  "x": 25,
+  "y": 19,
   "_index": 2
 }

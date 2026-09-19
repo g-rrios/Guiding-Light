@@ -67,6 +67,17 @@
         }
       },
       "id": "36d1e8d5-f1a1-4d29-8e0e-e58d2080243c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "76775f80-a4fe-47cd-afb7-ddf46c832659"
     }
   ],
   "updateScript": [],
