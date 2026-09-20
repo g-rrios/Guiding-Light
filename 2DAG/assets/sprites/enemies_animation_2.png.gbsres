@@ -43,6 +43,37 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "1e6e2248-8f12-4632-b6ac-531ccc5209a4",
+              "tiles": [
+                {
+                  "id": "dea623cc-5a04-41c1-a41e-a845d0df3584",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "af45b03a-caee-4d1c-bcf9-ec32d4e17026",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -88,6 +119,37 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "e660d60b-7d32-4bca-99d6-a8cd1f52597c",
+              "tiles": [
+                {
+                  "id": "6c74df37-6f78-412c-81b8-23cb3c8d08ea",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 48,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "6dd98465-6b0f-40d2-a58a-9dba03c01335",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 56,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -121,6 +183,37 @@
                   "palette": 0,
                   "paletteIndex": 0,
                   "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "4630374c-ed79-4721-ab26-2bcd8f2ca210",
+              "tiles": [
+                {
+                  "id": "fbd5eaeb-854c-407d-8857-c6b4509ad7ca",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "984fc36f-de35-4bfc-ad56-915ac8067e1c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
                   "priority": false
                 }
               ]
@@ -353,5 +446,5 @@
   "filename": "enemies_animation_2.png",
   "width": 96,
   "height": 16,
-  "checksum": "44ee383fb51137c3c65d246046f199db960f61d0"
+  "checksum": "e53d194eb535c0b9f8c649d75dea346c8987e926"
 }

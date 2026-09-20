@@ -7,8 +7,8 @@
   "spriteSheetId": "b4975486-8708-4271-b956-61dc52850958",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
-  "animSpeed": 63,
+  "moveSpeed": 0.5,
+  "animSpeed": 31,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -23,11 +23,11 @@
         "sceneId": "f0a94c6e-403e-4acd-b4a6-00031cf064f7",
         "x": {
           "type": "number",
-          "value": 40
+          "value": 39
         },
         "y": {
           "type": "number",
-          "value": 24
+          "value": 8
         },
         "direction": "",
         "fadeSpeed": "2"
@@ -36,7 +36,71 @@
     }
   ],
   "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 22
+        },
+        "y": {
+          "type": "number",
+          "value": 24
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "491f9b08-6a59-4d44-97ef-c6bf228beb32"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 23
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "3e586614-25bb-488e-b8a7-e66d24b8dacf"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 39
+        },
+        "y": {
+          "type": "number",
+          "value": 27
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "791d2912-c378-401a-be23-b67e34bfd640"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
