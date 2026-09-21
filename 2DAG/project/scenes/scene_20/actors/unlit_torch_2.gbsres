@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "e809c6a9-fa21-4c67-83a2-f27711d96e92",
+  "id": "0c507a24-24c1-4653-b078-b2738f655e89",
   "name": "unlit torch",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_18",
+  "symbol": "actor_113",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -24,24 +24,36 @@
         "spriteStateId": "",
         "loopAnim": false
       },
-      "id": "c728ad5b-600e-4375-8692-de14f65b3f56"
+      "id": "baf29a24-637b-4252-8282-5fd884fe8cca"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_INC_VALUE",
       "args": {
-        "sceneId": "02f7d5f1-ba8f-4162-9e1f-cf4f9b1afb89",
-        "x": {
-          "type": "number",
-          "value": 13
-        },
-        "y": {
-          "type": "number",
-          "value": 4
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "4"
       },
-      "id": "ab2e79fb-3629-4ec0-8d2b-126146821abb"
+      "id": "31ea826c-66ad-4651-99e6-8270e77ac1f8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "05db2e8e-c7e2-4815-954f-dce7348f6e88"
     }
   ],
   "startScript": [
@@ -52,7 +64,7 @@
         "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
         "__collapse": false
       },
-      "id": "11bc8304-4118-45d6-9af8-6c2af946c892"
+      "id": "64ad1711-6010-4985-a4eb-18bd91ad9270"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -63,7 +75,7 @@
           "value": 1
         }
       },
-      "id": "a330f04f-0f09-486d-8aea-221facbbf4ca"
+      "id": "6abdd9b4-01fe-4264-bca3-7c91a2a32a3f"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -73,7 +85,7 @@
           "type": "true"
         }
       },
-      "id": "a266c527-1648-4428-99c8-f7fabe349ac3"
+      "id": "742b3360-4ca8-4fc0-b4d5-b43eae9c0bdd"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -83,7 +95,7 @@
           "type": "false"
         }
       },
-      "id": "61e0b2f0-b159-4fd4-ace0-19b53b0beab9"
+      "id": "958371cd-58bb-49ca-a088-ef02717ae346"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -95,7 +107,7 @@
         },
         "__collapse": false
       },
-      "id": "26f7b068-01dc-427d-b2d4-10283b0620f7"
+      "id": "27d1a69d-126a-427f-9cad-ceee1750e059"
     }
   ],
   "updateScript": [],
@@ -103,7 +115,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
-  "y": 3,
+  "x": 35,
+  "y": 11,
   "_index": 1
 }

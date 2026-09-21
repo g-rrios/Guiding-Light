@@ -21,7 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "(add hint to \npuzzle)"
+          "< ^, v >, ^ >"
         ],
         "__section": "text",
         "avatarId": "",

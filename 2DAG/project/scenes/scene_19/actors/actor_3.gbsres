@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "fd195643-5695-4949-a3cd-f711205f1f2d",
-  "name": "unlit torch",
+  "id": "b1341d56-f19e-41bc-bc24-103653db0111",
+  "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f",
+  "spriteSheetId": "4bc2aa00-a348-4738-84cb-c64873e5a730",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_84",
+  "symbol": "actor_107",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 35,
-  "y": 11,
-  "_index": 3
+  "x": 27,
+  "y": 20,
+  "_index": 2
 }

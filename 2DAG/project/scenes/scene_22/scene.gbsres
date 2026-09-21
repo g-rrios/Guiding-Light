@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "b06feabe-2ae0-474a-a54b-9f0dcb7f431b",
+  "_index": 21,
+  "name": "Scene 22",
+  "backgroundId": "ef6bcf51-6be6-4781-8543-4c9f1e4d6c70",
+  "tilesetId": "",
+  "width": 60,
+  "height": 40,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00f4+0f2d+00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f20+007+0f6+00263+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 2936,
+  "y": 232,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

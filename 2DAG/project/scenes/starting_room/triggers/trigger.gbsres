@@ -1,74 +1,40 @@
 {
   "_resourceType": "trigger",
-  "id": "594274e6-bfa7-42cb-9163-25532699275b",
+  "id": "ca212aa0-33e6-431d-887c-310575d7de2d",
   "name": "",
   "prefabId": "",
   "x": 9,
   "y": 11,
-  "symbol": "trigger_4",
+  "symbol": "trigger_22",
   "prefabScriptOverrides": {},
   "width": 3,
   "height": 2,
   "script": [],
   "leaveScript": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "f0a94c6e-403e-4acd-b4a6-00031cf064f7",
-        "x": {
-          "type": "number",
-          "value": 26
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "text": [
+          "Light the torch\nto continue."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "abeb6933-3d53-48b0-8718-07d27dbe3e36"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "61d774d2-cbf8-4f55-879a-48cb8f2284c4"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L1",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "2f7c2abf-7b78-4534-925a-cb7413287a0d"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "5a4c91df-b219-4cc4-8be0-44419a4858d6"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L1",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "3bbab77c-58a7-4aec-b537-cba3742c1e07"
+      "id": "cee50ffc-a4b2-4e9f-825f-afe5effc6361"
     }
   ],
   "_index": 0

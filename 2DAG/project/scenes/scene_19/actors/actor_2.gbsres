@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "2004c218-d7c0-45e4-9b07-d530b546e2bc",
+  "id": "909d6cb2-ba3b-4860-a4f7-d4ed57b5c59b",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,24 +15,24 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_13",
+  "symbol": "actor_106",
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "f0a94c6e-403e-4acd-b4a6-00031cf064f7",
+        "sceneId": "b20644aa-19ca-4051-8d9d-93d327e519b8",
         "x": {
           "type": "number",
-          "value": 28
+          "value": 29
         },
         "y": {
           "type": "number",
-          "value": 8
+          "value": 9
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "67befc91-5860-4bf4-b230-8e2a3d37957e"
+      "id": "736e587a-21d1-4b8b-97d5-6dbe17385d8d"
     }
   ],
   "startScript": [],
@@ -41,7 +41,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 20,
-  "y": 19,
-  "_index": 0
+  "x": 22,
+  "y": 20,
+  "_index": 1
 }

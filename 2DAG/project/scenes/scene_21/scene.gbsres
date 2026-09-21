@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "8ee7fbe0-f74f-4e07-8e07-3eb1b206ee07",
-  "_index": 15,
-  "name": "Scene 16",
+  "id": "4843493c-f7f6-427f-b28c-06b0cb1503d2",
+  "_index": 20,
+  "name": "Scene 21",
   "backgroundId": "bd7861f6-a67f-4f07-ae44-d9eea96c805a",
   "tilesetId": "",
   "width": 60,
@@ -13,12 +13,11 @@
   "spritePaletteIds": [],
   "collisions": "00b8+0f12+005+0f10+0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f!0025+0f!0015+0f12+005+0f10+00269+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_16",
-  "x": 2480,
-  "y": 784,
+  "symbol": "scene_21",
+  "x": 3024,
+  "y": 672,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "playerSpriteSheetId": "2ea8b594-abf5-46a9-9c61-ed07ad21fad6"
+  "playerHit3Script": []
 }
