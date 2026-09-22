@@ -141,6 +141,86 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cc092742-4fe1-4970-b103-06837380b6fb",
+      "name": "New State",
+      "animations": [
+        {
+          "id": "049a5931-e8d9-44de-89bf-ca65d456fa49",
+          "frames": [
+            {
+              "id": "e50e6fa6-8630-4e53-a5b0-3f948c0a677b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa52b33d-46c3-4a9a-85eb-524011c0acc2",
+          "frames": [
+            {
+              "id": "4a3859aa-18e3-4e44-96a0-71de6906ff3f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "47821fd0-2040-4403-a453-7558e900f5c9",
+          "frames": [
+            {
+              "id": "1be0ba17-e2ce-489d-8db4-684d83ae2d00",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "837cffb2-922f-4b88-848f-9fc5bfc967e0",
+          "frames": [
+            {
+              "id": "bc775663-58eb-411f-93d8-73b66b4d5284",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d0943b19-8894-45c4-9540-2bd869f054a8",
+          "frames": [
+            {
+              "id": "ecb378a7-facd-4611-9bde-62cbe7a579b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a8aa8fd8-47e0-48a3-8d5d-e7fa93d1d619",
+          "frames": [
+            {
+              "id": "2ac568fb-e211-4e3f-87f5-7e2ab0d1b3ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "db9e0777-321a-42e3-bd81-35ea269b00b0",
+          "frames": [
+            {
+              "id": "e29baf2c-0cbd-430d-8dd5-5ab9525579f8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c8bc4c4a-e4b1-44bc-ab75-3b74e1a77405",
+          "frames": [
+            {
+              "id": "21ad27d6-3b39-4ada-b41d-880257de4e4f",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
     }
   ],
   "numTiles": 3,

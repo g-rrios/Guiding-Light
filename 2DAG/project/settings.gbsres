@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "60240ba1-6688-4764-ac4d-5af6b5edcb51",
-  "startX": 17,
-  "startY": 11,
+  "startSceneId": "b06feabe-2ae0-474a-a54b-9f0dcb7f431b",
+  "startX": 22,
+  "startY": 34,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "down",
+  "startDirection": "right",
   "showCollisionExtraTiles": false,
   "showCollisionTileValues": false,
   "collisionLayerOpacity": 50,
@@ -103,7 +103,27 @@
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_ACTOR_MOVE_TO": {
+      "f81b38d7-3442-4a5f-be86-78af95279cf0": {
+        "id": "f81b38d7-3442-4a5f-be86-78af95279cf0",
+        "name": "Preset 1",
+        "groups": [
+          "movement"
+        ],
+        "args": {
+          "x": {
+            "type": "number",
+            "value": 22
+          },
+          "y": {
+            "type": "number",
+            "value": 15
+          }
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {},
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",

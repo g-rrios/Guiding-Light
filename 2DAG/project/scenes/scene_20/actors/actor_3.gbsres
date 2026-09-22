@@ -91,27 +91,6 @@
         },
         "y": {
           "type": "number",
-          "value": 15
-        },
-        "collideWith": [
-          "walls"
-        ],
-        "lockDirection": [],
-        "moveType": "horizontal"
-      },
-      "id": "7d8183f9-4b29-4407-ba62-acd2be82bdd7"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "__section": "movement",
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 15
-        },
-        "y": {
-          "type": "number",
           "value": 21
         },
         "collideWith": [

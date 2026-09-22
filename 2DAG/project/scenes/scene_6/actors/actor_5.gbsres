@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "5167eb65-e17b-4f81-afd5-8da34cdd8529",
+  "spriteSheetId": "05e40abf-9263-4850-83b8-1fce45d69c62",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -17,6 +17,15 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_77",
   "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "talk",
+        "loopAnim": false
+      },
+      "id": "593e20a0-9ce0-4e21-9bab-2c4f0d24efc3"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -46,7 +55,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Prepare for more\nenemies and some\npuzzles."
+          "Be prepared to\navoid enemies when\nlighting torches."
         ],
         "__section": "text",
         "avatarId": "",

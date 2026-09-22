@@ -21,39 +21,10 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
-        "loopAnim": false
+        "spriteStateId": "litUp",
+        "loopAnim": true
       },
       "id": "baf29a24-637b-4252-8282-5fd884fe8cca"
-    },
-    {
-      "command": "EVENT_INC_VALUE",
-      "args": {
-        "variable": "4"
-      },
-      "id": "31ea826c-66ad-4651-99e6-8270e77ac1f8"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "4"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 1
-          }
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "05db2e8e-c7e2-4815-954f-dce7348f6e88"
     }
   ],
   "startScript": [

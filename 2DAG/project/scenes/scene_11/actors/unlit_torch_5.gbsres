@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "559c0976-e12d-4c53-9005-fc4755b42ec7",
+  "id": "b137c88d-9e97-4c8f-988a-28955b59ad9d",
   "name": "unlit torch",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_52",
+  "symbol": "actor_156",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -24,7 +24,24 @@
         "spriteStateId": "",
         "loopAnim": true
       },
-      "id": "a3264780-2a30-489d-b199-79f8c6fb93b8"
+      "id": "6942b1a5-b5de-4edd-b296-a046c3ace85d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3319db50-7c92-483b-8994-ef433b772eb4",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 31
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "144e05ec-ccdf-432f-9b2f-6cc60ac9d044"
     }
   ],
   "startScript": [
@@ -35,7 +52,7 @@
         "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
         "__collapse": false
       },
-      "id": "0938a844-b496-400e-93a6-1d75b1a69972"
+      "id": "6f4c4854-c568-41cc-a16d-cb3952aea2cb"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -46,7 +63,7 @@
           "value": 1
         }
       },
-      "id": "c674cb32-cadd-411e-bd51-fb33cbf67bb0"
+      "id": "72395361-e8af-4a20-932c-a62b56f670d8"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -56,7 +73,7 @@
           "type": "true"
         }
       },
-      "id": "9d813b2c-3a5d-4c5a-88b1-9acc76b8defe"
+      "id": "77b10644-8edb-4337-a114-d8725343ca82"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -66,7 +83,7 @@
           "type": "false"
         }
       },
-      "id": "faf23762-4b40-4089-8941-cd935bae0670"
+      "id": "e03a08d8-31f5-4890-844e-17d414a2fe0b"
     }
   ],
   "updateScript": [],
@@ -75,6 +92,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 13,
-  "y": 8,
-  "_index": 6
+  "y": 35,
+  "_index": 8
 }

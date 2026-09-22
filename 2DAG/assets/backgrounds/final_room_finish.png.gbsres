@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "276e085b-368a-4435-a75e-032c7a168ef9",
+  "name": "final_room_finish",
+  "symbol": "bg_final_room_finish",
+  "tileColors": "",
+  "filename": "final_room_finish.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

@@ -3,7 +3,7 @@
   "id": "bd7861f6-a67f-4f07-ae44-d9eea96c805a",
   "name": "room_8",
   "symbol": "bg_room_8",
-  "tileColors": "",
+  "tileColors": "00960+",
   "filename": "room_8.png",
   "width": 60,
   "height": 40,

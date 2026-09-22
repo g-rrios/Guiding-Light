@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -25,6 +25,23 @@
         "loopAnim": true
       },
       "id": "ea207d14-d1f1-4ecc-9762-ed92fa3a0ee7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4843493c-f7f6-427f-b28c-06b0cb1503d2",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "cff9089e-1b68-46fb-a415-f910fddabff7"
     }
   ],
   "startScript": [
@@ -74,7 +91,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 10,
-  "y": 24,
-  "_index": 6
+  "x": 13,
+  "y": 6,
+  "_index": 5
 }

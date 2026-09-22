@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "04d53b4f-ce05-491c-9843-c7957abf99c6",
+  "id": "ace8c813-2779-48bd-b14b-d2fe1a334008",
   "name": "unlit torch",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_54",
+  "symbol": "actor_50",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -24,7 +24,7 @@
         "spriteStateId": "",
         "loopAnim": true
       },
-      "id": "52251d98-d0eb-41a1-b7be-687d4d24353d"
+      "id": "34903b50-9c60-4fae-b66b-34c917e11598"
     }
   ],
   "startScript": [
@@ -35,7 +35,7 @@
         "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
         "__collapse": false
       },
-      "id": "bf3a2d07-83a2-4d9a-a13b-f0d8c5dc9db9"
+      "id": "e37853f3-8ac4-4525-bd54-af7682d99839"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -46,7 +46,7 @@
           "value": 1
         }
       },
-      "id": "c5c9b920-3339-40e8-83ad-323e1cef9d10"
+      "id": "07c2d6fc-e3c1-4a97-865e-3d8c7eb42d9b"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -56,7 +56,7 @@
           "type": "true"
         }
       },
-      "id": "a513d0b5-04be-4d0e-8918-861cbacd22b7"
+      "id": "944064fb-cfd7-4b40-a0c5-138e797552d5"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -66,7 +66,7 @@
           "type": "false"
         }
       },
-      "id": "d57bc491-7c8a-4f49-a6ca-3f4512d301c7"
+      "id": "4e4d0d01-5928-419a-8d12-eef5a2ea7e3c"
     }
   ],
   "updateScript": [],
@@ -74,7 +74,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 12,
-  "y": 28,
+  "x": 18,
+  "y": 18,
   "_index": 3
 }

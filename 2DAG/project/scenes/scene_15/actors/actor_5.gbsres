@@ -4,11 +4,11 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "5167eb65-e17b-4f81-afd5-8da34cdd8529",
+  "spriteSheetId": "05e40abf-9263-4850-83b8-1fce45d69c62",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 63,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -18,10 +18,19 @@
   "symbol": "actor_80",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "talk",
+        "loopAnim": false
+      },
+      "id": "60088c6f-4886-4f95-8402-7026bffaf444"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Erratic movement\nor something idk\nyet."
+          "Congrats on making\nit so far."
         ],
         "__section": "text",
         "avatarId": "",
@@ -39,15 +48,15 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "2a1a71b7-f6b5-4ef2-af2b-d67b496d9241"
+      "id": "04431ef4-0d30-4b23-8686-e3514d2c8805"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "The transformed\nfollow you more \nnow or something.\nchange later"
+          "Now all that's \nleft is to turn on\nthe generator"
         ],
         "__section": "text",
         "avatarId": "",
@@ -65,15 +74,15 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "040f3663-3e08-44f8-81e9-731d90674d38"
+      "id": "292582b9-d7dd-4026-ace3-c2dde19b9cb7"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Congrats on making\nit so far. Now all\nyou have left to \ndo is turn on ..."
+          "at the end of the\nnext room to turn\non the rest of \nthe torches ."
         ],
         "__section": "text",
         "avatarId": "",
@@ -92,7 +101,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "04431ef4-0d30-4b23-8686-e3514d2c8805"
+      "id": "0fa79a6e-e88d-4f86-8315-5d8177f39692"
     },
     {
       "command": "EVENT_TEXT",
@@ -115,9 +124,35 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
       "id": "57d18613-0267-4316-840a-18809f151184"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Just be careful \nto avoid all the\nenemies."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bf7a4313-5187-43fc-9a6f-7a4d0f6f5ffc"
     }
   ],
   "startScript": [],

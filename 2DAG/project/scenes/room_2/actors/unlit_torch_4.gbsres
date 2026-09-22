@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "fd195643-5695-4949-a3cd-f711205f1f2d",
+  "id": "4dcb1cc7-adae-438f-9695-7310d67e65e9",
   "name": "unlit torch",
   "frame": 0,
   "animate": false,
@@ -15,15 +15,83 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_84",
-  "script": [],
-  "startScript": [],
+  "symbol": "actor_109",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "1146a346-1b68-4acc-bd15-2bc5413c9e03"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b20644aa-19ca-4051-8d9d-93d327e519b8",
+        "x": {
+          "type": "number",
+          "value": 37
+        },
+        "y": {
+          "type": "number",
+          "value": 23
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "07ecabb3-54e5-4f38-bc72-a96b4edc0478"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
+        "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
+        "__collapse": false
+      },
+      "id": "f1ecc646-a436-475c-a02e-5880367356d7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "0153c0b0-2cd8-4916-adfb-e283cd30c45f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "63992d80-ab46-4794-8122-2c865806e3ef"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "de3c9706-1bfd-4bfe-8100-7b97a319a5cf"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 35,
-  "y": 11,
-  "_index": 3
+  "y": 25,
+  "_index": 4
 }

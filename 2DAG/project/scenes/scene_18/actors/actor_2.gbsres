@@ -21,7 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Avoid stalagmites \nand light your\nway to continue."
+          "Avoid stalagmites \nand light your\nway to progress."
         ],
         "__section": "text",
         "avatarId": "",

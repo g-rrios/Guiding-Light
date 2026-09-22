@@ -25,6 +25,46 @@
         "loopAnim": true
       },
       "id": "67ec1540-45e7-4705-bede-f58e6cf1804f"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "L0"
+      },
+      "id": "36c2a5f1-29b5-4ebe-8c43-34a472e0d64d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "02d348e8-9ed0-4a78-9e74-3c3c936da476"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "a4994576-99c7-474b-922b-bf7c1835952c"
     }
   ],
   "startScript": [

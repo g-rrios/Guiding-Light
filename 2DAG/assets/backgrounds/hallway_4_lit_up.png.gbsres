@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0e902f48-537d-4c61-8af6-8848e335a52d",
+  "name": "hallway_4_lit_up",
+  "symbol": "bg_hallway_4_lit_up",
+  "tileColors": "",
+  "filename": "hallway_4_lit_up.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

@@ -25,6 +25,46 @@
         "loopAnim": true
       },
       "id": "73e64f9b-b327-42b4-a492-ea60e4aa2796"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "L0"
+      },
+      "id": "3b932871-fa26-4bfc-b812-0550b13e6308"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "0248a54b-4343-49b1-a769-123fa0ce3f24"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "8f9b8f06-e14a-4919-8d7f-f68acfbdf5fd"
     }
   ],
   "startScript": [
@@ -74,7 +114,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 26,
+  "x": 22,
   "y": 7,
   "_index": 11
 }

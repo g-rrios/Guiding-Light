@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "55c2cf18-08e9-42fc-b0eb-aac792a8ae3c",
-  "_index": 12,
+  "_index": 10,
   "name": "Scene 13",
   "backgroundId": "ef6bcf51-6be6-4781-8543-4c9f1e4d6c70",
   "tilesetId": "",
@@ -14,9 +14,32 @@
   "collisions": "00f4+0f2d+00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f2+002a+0f!00f+0f20+007+0f6+00263+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 2400,
-  "y": 232,
-  "script": [],
+  "x": 3584,
+  "y": 688,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "77bf5909-aef1-4797-b1e0-986e53630c9a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
