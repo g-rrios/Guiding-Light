@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "aa12a778-e145-4c88-813d-3d6ac3a54142",
+  "name": "room_1_lit_up",
+  "symbol": "bg_room_1_lit_up",
+  "tileColors": "",
+  "filename": "room_1_lit_up.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -21,7 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Go left and light \nthe torches to\nunlock thezzzz path to\nthe right."
+          "Go left and light\nthe torches"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,32 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "4b9b871a-a2bf-4473-8821-01fe88f40e43"
+      "id": "9cc600c3-acb9-4051-8670-7895324d1773"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "to unlock the path\nto the right."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6986b4ad-3f6f-4c0e-af04-bbbce3e23aeb"
     }
   ],
   "startScript": [],

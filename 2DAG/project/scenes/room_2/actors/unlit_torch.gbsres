@@ -57,16 +57,6 @@
         }
       },
       "id": "660e0286-97b0-49c8-9601-717583bbc7ec"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "14e3b5b3-c588-495e-9b3d-96176daff8bb"
     }
   ],
   "updateScript": [],
@@ -74,7 +64,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 37,
-  "y": 11,
+  "x": 40,
+  "y": 10,
   "_index": 1
 }

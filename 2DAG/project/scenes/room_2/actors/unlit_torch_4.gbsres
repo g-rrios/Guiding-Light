@@ -21,7 +21,7 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
+        "spriteStateId": "litUp",
         "loopAnim": true
       },
       "id": "1146a346-1b68-4acc-bd15-2bc5413c9e03"
@@ -59,17 +59,6 @@
       "args": {
         "variable": "L0",
         "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "0153c0b0-2cd8-4916-adfb-e283cd30c45f"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
           "type": "true"
         }
       },
@@ -91,7 +80,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 35,
-  "y": 25,
+  "x": 40,
+  "y": 28,
   "_index": 4
 }

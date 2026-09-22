@@ -21,7 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Continue lighting\nevery torch. avoid\nobstacles."
+          "Continue lighting\nevery torch."
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,6 +41,31 @@
         "closeDelayFrames": 30
       },
       "id": "2659a129-b50d-40c4-b76d-d15c77d67882"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Avoid\nobstacles."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "652f83c9-f68b-47c2-b385-9f0b193a0e85"
     }
   ],
   "startScript": [],

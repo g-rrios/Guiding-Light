@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "95f2f844-2c35-4ddf-b45d-0930a1c6ef98",
+  "name": "room_7-export",
+  "symbol": "bg_room_7_export",
+  "tileColors": "",
+  "filename": "room_7-export.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

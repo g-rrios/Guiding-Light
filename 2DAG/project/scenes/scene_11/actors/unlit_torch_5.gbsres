@@ -21,7 +21,7 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
+        "spriteStateId": "litUp",
         "loopAnim": true
       },
       "id": "6942b1a5-b5de-4edd-b296-a046c3ace85d"
