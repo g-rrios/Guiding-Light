@@ -21,6 +21,56 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
+          "The cave has been\nshrouded in \ndarkness."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f24b2936-7771-44cb-9e8d-d79f881b2b39"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You need to \nventure down to \nturn on the\ngenerator."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6a491b10-d659-4cfd-8990-0cce84da4584"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
           "Avoid stalagmites \nand light your\nway to progress."
         ],
         "__section": "text",

@@ -82,7 +82,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "at the end of the\nnext room to turn\non the rest of \nthe torches ."
+          "at the end of the\nnext room to turn\non the rest of \nthe torches."
         ],
         "__section": "text",
         "avatarId": "",
@@ -102,6 +102,31 @@
         "closeDelayFrames": 30
       },
       "id": "0fa79a6e-e88d-4f86-8315-5d8177f39692"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "So keep moving\nforward to the end\nof the room to the\ngenerator."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "883ff6f2-ae50-49d8-bf7a-6a01c4c8c063"
     },
     {
       "command": "EVENT_TEXT",

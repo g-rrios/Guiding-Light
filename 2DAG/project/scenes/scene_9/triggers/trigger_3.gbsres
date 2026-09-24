@@ -21,7 +21,7 @@
         },
         "y": {
           "type": "number",
-          "value": 36
+          "value": 35
         },
         "direction": "up",
         "fadeSpeed": "2"

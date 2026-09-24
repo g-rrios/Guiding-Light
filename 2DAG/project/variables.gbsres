@@ -325,6 +325,11 @@
       "id": "7b6de26d-e218-4e89-af51-80f2019a64b4__L0",
       "name": "lightTorch",
       "symbol": "var_lighttorch_43"
+    },
+    {
+      "id": "d14140f0-bd95-4e10-8447-ec3f357ed791__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_44"
     }
   ],
   "constants": []

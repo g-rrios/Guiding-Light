@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "023d61dd-2286-4dad-8439-ac25a0daf382",
+  "id": "d14140f0-bd95-4e10-8447-ec3f357ed791",
   "name": "unlit torch",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "ee016f25-9b1f-4268-8bfb-31e005dd4d9f",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_71",
+  "symbol": "actor_57",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -24,7 +24,24 @@
         "spriteStateId": "",
         "loopAnim": true
       },
-      "id": "c4500f43-a3ad-4c07-8e9b-c432f061d8cd"
+      "id": "c7e46b4c-57be-42e9-ad32-6ad1ed494e17"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4843493c-f7f6-427f-b28c-06b0cb1503d2",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "c771b081-7c30-4ec5-900f-e50aff2a572b"
     }
   ],
   "startScript": [
@@ -35,7 +52,7 @@
         "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
         "__collapse": false
       },
-      "id": "092202d5-761c-4998-bac9-d0d45b376fb6"
+      "id": "ffcf2eb6-e724-4d41-aa0b-7d89ed7a7d22"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -46,7 +63,7 @@
           "value": 1
         }
       },
-      "id": "e37e0504-98da-4b02-95d9-b6a44d5c7c7c"
+      "id": "260dbeb5-03ee-4cdb-8bd5-33426ff7e174"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -56,7 +73,7 @@
           "type": "true"
         }
       },
-      "id": "28c9a9ae-ea67-402a-a796-285a0298ca56"
+      "id": "95a07862-f924-4d88-b958-001fbd94f178"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -66,7 +83,7 @@
           "type": "false"
         }
       },
-      "id": "dd8e25b3-a99e-4835-a01e-79ff15d176c1"
+      "id": "9fbe462e-3ddf-4c16-9acd-ce1339959c40"
     }
   ],
   "updateScript": [],
@@ -74,7 +91,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 27,
+  "x": 13,
   "y": 6,
-  "_index": 6
+  "_index": 8
 }
