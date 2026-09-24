@@ -25,50 +25,56 @@
         "loopAnim": true
       },
       "id": "34903b50-9c60-4fae-b66b-34c917e11598"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "4"
+      },
+      "id": "4e4293c9-a110-4ae6-9d18-79394593e8e6"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3319db50-7c92-483b-8994-ef433b772eb4",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "466fc92e-4c12-4f2e-99e9-bc8180d31644"
+          }
+        ],
+        "false": []
+      },
+      "id": "d8ed643d-f468-4aba-a75f-72e376930804"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_SPRITE",
-      "args": {
-        "actorId": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
-        "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
-        "__collapse": false
-      },
-      "id": "e37853f3-8ac4-4525-bd54-af7682d99839"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "07c2d6fc-e3c1-4a97-865e-3d8c7eb42d9b"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "944064fb-cfd7-4b40-a0c5-138e797552d5"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "4e4d0d01-5928-419a-8d12-eef5a2ea7e3c"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

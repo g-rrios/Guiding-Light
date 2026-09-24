@@ -21,10 +21,34 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
+        "spriteStateId": "litUp",
         "loopAnim": true
       },
       "id": "c4500f43-a3ad-4c07-8e9b-c432f061d8cd"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "4"
+      },
+      "id": "71a9c986-c385-4756-b300-94ed1ed274fb"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4843493c-f7f6-427f-b28c-06b0cb1503d2",
+        "x": {
+          "type": "number",
+          "value": 25
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2c921c06-f6b8-43d0-8fe5-cff7aaf496d3"
     }
   ],
   "startScript": [

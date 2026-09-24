@@ -169,7 +169,7 @@
     {
       "id": "559c0976-e12d-4c53-9005-fc4755b42ec7__L0",
       "name": "lightTorch",
-      "symbol": "var_lighttorch_14"
+      "symbol": "var_lighttorch_39"
     },
     {
       "id": "4a5545db-0810-4ae3-aed1-16b83bb8f213__L0",
@@ -300,11 +300,6 @@
       "id": "c21d7039-78f3-47e9-ae1f-3d3591fbb1a0__L0",
       "name": "lightTorch",
       "symbol": "var_lighttorch_38"
-    },
-    {
-      "id": "785537cf-0b4a-4e2e-aa9c-68f01c501603__L0",
-      "name": "lightTorch",
-      "symbol": "var_lighttorch_39"
     },
     {
       "id": "59d85e0a-0f02-4f42-bdf2-986868dae0f5__L0",

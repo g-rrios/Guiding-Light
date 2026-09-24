@@ -29,9 +29,49 @@
     {
       "command": "EVENT_INC_VALUE",
       "args": {
-        "variable": "L0"
+        "variable": "4"
       },
       "id": "dba5776b-9693-45a5-a241-5adee26e7855"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b20644aa-19ca-4051-8d9d-93d327e519b8",
+              "x": {
+                "type": "number",
+                "value": 38
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "cc26b119-73d8-41e4-87c5-97bdbe5cb5e0"
+          }
+        ],
+        "false": []
+      },
+      "id": "8f511228-88d9-4de0-8d4a-bf965e5a7b5a"
     }
   ],
   "startScript": [
@@ -71,6 +111,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 40,
-  "y": 28,
+  "y": 27,
   "_index": 4
 }

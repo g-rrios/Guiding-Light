@@ -12,21 +12,29 @@
   "script": [],
   "leaveScript": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "8e83e271-8e17-4aa6-9f40-8659350bdb06",
-        "x": {
-          "type": "number",
-          "value": 3
-        },
-        "y": {
-          "type": "number",
-          "value": 13
-        },
-        "direction": "up",
-        "fadeSpeed": "2"
+        "text": [
+          "It's locked."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "b43f576e-de29-4f6e-9597-8753425d5e88"
+      "id": "bbf192e9-b818-4adc-a9ee-5fbb0b52c9e0"
     }
   ],
   "_index": 0

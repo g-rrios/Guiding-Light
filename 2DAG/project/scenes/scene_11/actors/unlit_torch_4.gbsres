@@ -25,56 +25,62 @@
         "loopAnim": true
       },
       "id": "a3264780-2a30-489d-b199-79f8c6fb93b8"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "4"
+      },
+      "id": "dc4d6744-fa58-4450-9ff8-acf5914f1d02"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3319db50-7c92-483b-8994-ef433b772eb4",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
+            },
+            "id": "fc0b19be-bd19-4aef-ae83-07a22656b1a7"
+          }
+        ],
+        "false": []
+      },
+      "id": "9efe017d-8476-4f58-bca8-89f1817ff830"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_SPRITE",
-      "args": {
-        "actorId": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
-        "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
-        "__collapse": false
-      },
-      "id": "0938a844-b496-400e-93a6-1d75b1a69972"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "c674cb32-cadd-411e-bd51-fb33cbf67bb0"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "9d813b2c-3a5d-4c5a-88b1-9acc76b8defe"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "faf23762-4b40-4089-8941-cd935bae0670"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
+  "x": 12,
   "y": 8,
   "_index": 5
 }

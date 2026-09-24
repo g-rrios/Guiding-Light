@@ -29,9 +29,49 @@
     {
       "command": "EVENT_INC_VALUE",
       "args": {
-        "variable": "L0"
+        "variable": "4"
       },
       "id": "da5c545f-51fd-4c1e-9b9a-1b0eb2f7a266"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b20644aa-19ca-4051-8d9d-93d327e519b8",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
+            },
+            "id": "4d4de3ee-379f-4cca-aa41-195794c4b32e"
+          }
+        ],
+        "false": []
+      },
+      "id": "8b02cc77-6e02-4c13-a84a-3372a0fb7fd3"
     }
   ],
   "startScript": [

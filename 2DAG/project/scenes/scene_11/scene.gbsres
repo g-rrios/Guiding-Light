@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0089+0fa+002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f10+00d5+",
+  "collisions": "0089+0fa+002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!00e+0f!002c+0f!003b+0f!003b+0f!003b+0f!003b+0f!003b+0f!003b+0f10+00d5+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 856,

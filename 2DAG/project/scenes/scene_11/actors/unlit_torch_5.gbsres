@@ -27,6 +27,35 @@
       "id": "6942b1a5-b5de-4edd-b296-a046c3ace85d"
     },
     {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "4"
+      },
+      "id": "17b15535-ae30-420f-86ff-57fb7e96152d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "6bf51493-ebac-452d-b33e-8a51f8cb10a9"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "3319db50-7c92-483b-8994-ef433b772eb4",
@@ -44,54 +73,13 @@
       "id": "144e05ec-ccdf-432f-9b2f-6cc60ac9d044"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_SPRITE",
-      "args": {
-        "actorId": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
-        "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
-        "__collapse": false
-      },
-      "id": "6f4c4854-c568-41cc-a16d-cb3952aea2cb"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "72395361-e8af-4a20-932c-a62b56f670d8"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "77b10644-8edb-4337-a114-d8725343ca82"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "e03a08d8-31f5-4890-844e-17d414a2fe0b"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
+  "x": 12,
   "y": 35,
   "_index": 8
 }

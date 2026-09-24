@@ -21,54 +21,60 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
+        "spriteStateId": "litUp",
         "loopAnim": true
       },
       "id": "e2bf95c8-be45-49de-92ca-cd9b2730212f"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "4"
+      },
+      "id": "43b70d0d-d914-43bc-92d1-822ad830cc4a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 6
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4843493c-f7f6-427f-b28c-06b0cb1503d2",
+              "x": {
+                "type": "number",
+                "value": 41
+              },
+              "y": {
+                "type": "number",
+                "value": 28
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "c79dc106-aedd-4e95-bc73-5d693e1127f0"
+          }
+        ],
+        "false": []
+      },
+      "id": "3bfad103-b4bb-43ef-9888-c4212fd3b045"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_SPRITE",
-      "args": {
-        "actorId": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
-        "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
-        "__collapse": false
-      },
-      "id": "59113e6f-a198-40c6-9674-b354edc29d9b"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "a5992cea-adb9-4d22-bc3a-5bada82bf15d"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "fa912038-8aa1-4625-b184-e451ed935988"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "154bb58d-5d7e-4a23-92c3-44e9d6bac634"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

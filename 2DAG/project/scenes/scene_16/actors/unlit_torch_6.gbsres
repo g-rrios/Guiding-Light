@@ -21,10 +21,17 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
+        "spriteStateId": "litUp",
         "loopAnim": true
       },
       "id": "c7e46b4c-57be-42e9-ad32-6ad1ed494e17"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "4"
+      },
+      "id": "5bb9e7ac-c6f5-4db7-bfef-4aa3926022e8"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
