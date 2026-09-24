@@ -330,6 +330,31 @@
       "id": "d14140f0-bd95-4e10-8447-ec3f357ed791__L0",
       "name": "lightTorch",
       "symbol": "var_lighttorch_44"
+    },
+    {
+      "id": "11fac374-7452-4446-ac34-b07f5e46359a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "b26d12a8-595b-45e2-ac21-e89fb224b979__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_45"
+    },
+    {
+      "id": "64de7f83-3e90-457b-af24-700bbd4552cb__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_46"
+    },
+    {
+      "id": "c9acab89-9d23-489f-9c28-ea737ef8f8ed__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_47"
+    },
+    {
+      "id": "860e00ca-4393-47f8-bdba-2851d0c64877__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_48"
     }
   ],
   "constants": []

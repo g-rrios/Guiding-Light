@@ -27,21 +27,11 @@
       "id": "1146a346-1b68-4acc-bd15-2bc5413c9e03"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_INC_VALUE",
       "args": {
-        "sceneId": "b20644aa-19ca-4051-8d9d-93d327e519b8",
-        "x": {
-          "type": "number",
-          "value": 37
-        },
-        "y": {
-          "type": "number",
-          "value": 23
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "L0"
       },
-      "id": "07ecabb3-54e5-4f38-bc72-a96b4edc0478"
+      "id": "dba5776b-9693-45a5-a241-5adee26e7855"
     }
   ],
   "startScript": [

@@ -3,7 +3,7 @@
   "id": "6629a314-ef2b-44bb-9712-db912217d8a2",
   "_index": 14,
   "name": "Title Screen",
-  "backgroundId": "65d9c332-8171-4f8e-af7b-44fbc839d5df",
+  "backgroundId": "0df318b7-0443-4025-94bb-aa5adaad615b",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -14,10 +14,75 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 772,
-  "y": 72,
-  "script": [],
+  "x": 768,
+  "y": 64,
+  "script": [
+    {
+      "id": "5a6447c2-807e-4d0d-9173-c096348d62f1",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "5462344a-0c4e-4812-b0b7-a1240fc76d02",
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
+    {
+      "id": "452340af-233c-41aa-a6a6-ce2ebb44caa5",
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "10",
+        "trueText": "New Game",
+        "falseText": "Continue"
+      }
+    },
+    {
+      "id": "a774546b-31e3-4174-9b76-5b8df2117cf0",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "10",
+        "__collapse": false,
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "10"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c1d474be-3bc2-4527-ad18-cd1a85a9dd57",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "48d1117b-2e0d-483e-99e1-6647ec596820",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "direction": "right",
+              "fadeSpeed": "4"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2ea8b594-abf5-46a9-9c61-ed07ad21fad6"
 }

@@ -25,6 +25,13 @@
         "loopAnim": true
       },
       "id": "9e03eced-9662-4d6e-94d1-c4bc6358300b"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "L0"
+      },
+      "id": "da5c545f-51fd-4c1e-9b9a-1b0eb2f7a266"
     }
   ],
   "startScript": [
@@ -74,7 +81,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 10,
+  "x": 9,
   "y": 11,
   "_index": 2
 }

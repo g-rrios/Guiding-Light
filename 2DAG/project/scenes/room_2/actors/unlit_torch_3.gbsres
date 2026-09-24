@@ -21,10 +21,17 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "",
+        "spriteStateId": "litUp",
         "loopAnim": true
       },
       "id": "781650c6-9b67-4aa5-a562-bfb357e5a196"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "L0"
+      },
+      "id": "eaf4850c-ad91-4eb3-a2f1-b0b292986a44"
     }
   ],
   "startScript": [
