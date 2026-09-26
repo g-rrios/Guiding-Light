@@ -350,6 +350,21 @@
       "id": "860e00ca-4393-47f8-bdba-2851d0c64877__L0",
       "name": "lightTorch",
       "symbol": "var_lighttorch_48"
+    },
+    {
+      "id": "c43893a2-dadc-43cb-9c03-fb2e43bb86ea__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_14"
+    },
+    {
+      "id": "8669a8cc-f2d5-4dd4-b740-e277e5fa0e9c__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_49"
+    },
+    {
+      "id": "6a733cda-520c-4000-9e5b-e0613bcc48b2__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_50"
     }
   ],
   "constants": []
