@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "b8d4bfe0-1486-4a20-8615-073f587d64b1",
+  "id": "aedea5ed-d296-4e1e-8db0-accada05a6a0",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_104",
+  "symbol": "actor_161",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 13,
-  "y": 4,
-  "_index": 0
+  "x": 3,
+  "y": 12,
+  "_index": 3
 }

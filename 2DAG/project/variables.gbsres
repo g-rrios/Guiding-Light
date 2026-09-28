@@ -365,6 +365,41 @@
       "id": "6a733cda-520c-4000-9e5b-e0613bcc48b2__L0",
       "name": "lightTorch",
       "symbol": "var_lighttorch_50"
+    },
+    {
+      "id": "73c1fce6-f849-45e9-9287-61d21ee08684__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_51"
+    },
+    {
+      "id": "d11e05d5-41f5-4fec-99f5-28bb5e60257a__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_52"
+    },
+    {
+      "id": "a33230fa-7dcb-419a-8803-48e0844d86e9__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_53"
+    },
+    {
+      "id": "449f0514-58b7-4004-b786-19c2d0e42864__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_54"
+    },
+    {
+      "id": "326c9957-9fd7-4697-ae0a-c30fb99c1752__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_55"
+    },
+    {
+      "id": "d964b830-0f9e-4095-bb35-519e7c9d46e2__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_56"
+    },
+    {
+      "id": "1e8328f7-a746-4a30-9363-2e3e90ff3cb2__L0",
+      "name": "lightTorch",
+      "symbol": "var_lighttorch_57"
     }
   ],
   "constants": []

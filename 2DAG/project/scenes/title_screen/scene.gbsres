@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 768,
-  "y": 64,
+  "x": 776,
+  "y": 56,
   "script": [
     {
       "id": "5a6447c2-807e-4d0d-9173-c096348d62f1",
@@ -41,8 +41,8 @@
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "10",
-        "trueText": "New Game",
-        "falseText": "Continue"
+        "trueText": "Start",
+        "falseText": "    "
       }
     },
     {

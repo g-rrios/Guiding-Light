@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "559c0976-e12d-4c53-9005-fc4755b42ec7",
+  "id": "449f0514-58b7-4004-b786-19c2d0e42864",
   "name": "unlit torch",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_52",
+  "symbol": "actor_50",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -24,14 +24,14 @@
         "spriteStateId": "litUp",
         "loopAnim": true
       },
-      "id": "a3264780-2a30-489d-b199-79f8c6fb93b8"
+      "id": "b79e4fde-564d-400e-b34b-9babfae7db8a"
     },
     {
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "4"
       },
-      "id": "dc4d6744-fa58-4450-9ff8-acf5914f1d02"
+      "id": "0f897129-f608-4be5-87b4-d44da17b5853"
     },
     {
       "command": "EVENT_IF",
@@ -61,26 +61,67 @@
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 28
               },
-              "direction": "left",
+              "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "fc0b19be-bd19-4aef-ae83-07a22656b1a7"
+            "id": "7d83d74a-2383-4b55-951d-26abcf45a148"
           }
         ],
         "false": []
       },
-      "id": "9efe017d-8476-4f58-bca8-89f1817ff830"
+      "id": "97579612-882a-4501-9242-2e604d832884"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "493f6ba1-dd57-47b6-b8e5-4d8f7b784a3f",
+        "spriteSheetId": "1c8f58bc-ca09-4073-89d8-5e34cf576c0a",
+        "__collapse": false
+      },
+      "id": "c7cf3899-a35d-4985-87b2-a9412c5e9b3c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "d416c6da-ca4c-46d4-b0e2-c9a49fed286f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "a8f0ad77-bd51-447e-97c8-95cf5b94a6dd"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "65d334c9-caba-48d1-a8c7-b476eabeed7c"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 12,
-  "y": 8,
-  "_index": 5
+  "y": 28,
+  "_index": 7
 }

@@ -1,27 +1,27 @@
 {
   "_resourceType": "actor",
-  "id": "a57ed1b2-c3a5-45df-bd90-d17653392d83",
+  "id": "6f408f54-5c97-4a0a-afed-0496db6e612c",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "4bc2aa00-a348-4738-84cb-c64873e5a730",
+  "spriteSheetId": "d1a031ff-0f10-4870-ab4f-08b3f03f9c6b",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 63,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": true,
+  "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_124",
+  "symbol": "actor_162",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I'm free!"
+          "Go left and light\nthe torches"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,32 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "6c0b03af-4e95-47df-83cd-5ef1912b445a"
+      "id": "2a564140-fe16-416d-91da-7091a5b9c0f6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "to unlock the path\nto the right."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f09e2169-9ce0-4e76-b7ae-89add1d30153"
     }
   ],
   "startScript": [],
@@ -49,7 +74,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 16,
-  "y": 30,
-  "_index": 2
+  "x": 6,
+  "y": 2,
+  "_index": 4
 }

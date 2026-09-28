@@ -23,7 +23,7 @@
         "sceneId": "02f7d5f1-ba8f-4162-9e1f-cf4f9b1afb89",
         "x": {
           "type": "number",
-          "value": 13
+          "value": 11
         },
         "y": {
           "type": "number",
@@ -42,6 +42,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 13,
-  "y": 3,
+  "y": 4,
   "_index": 1
 }

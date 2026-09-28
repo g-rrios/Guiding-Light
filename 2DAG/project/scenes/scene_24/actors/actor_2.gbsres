@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 63,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
@@ -18,10 +18,19 @@
   "symbol": "actor_107",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "talk",
+        "loopAnim": false
+      },
+      "id": "eb4c2a00-decc-454d-bfa3-a4da86654a3c"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Continue on. \nThere's more you\nneed to save."
+          "Continue on to \nthe generator."
         ],
         "__section": "text",
         "avatarId": "",
