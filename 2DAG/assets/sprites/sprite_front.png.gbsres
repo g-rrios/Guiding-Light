@@ -112,7 +112,7 @@
       ]
     }
   ],
-  "numTiles": 2,
+  "numTiles": 1,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -125,5 +125,5 @@
   "filename": "sprite_front.png",
   "width": 16,
   "height": 16,
-  "checksum": "2faa1ab5f2866d1fc902e6f68fab0e4d31cde7e0"
+  "checksum": "1c451067c404c5a520a09ecf372ae83f5a5c2f6e"
 }

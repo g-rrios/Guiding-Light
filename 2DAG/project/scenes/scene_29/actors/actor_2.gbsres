@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "43e3d24b-e286-440d-8ab5-9feeb736056a",
+  "id": "700870f3-bde8-48ec-a345-db593fad1a00",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_1",
+  "symbol": "actor_163",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -40,13 +40,13 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "f24b2936-7771-44cb-9e8d-d79f881b2b39"
+      "id": "d4a684e4-460e-4475-a70c-11abffa80ef7"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You need to \nventure down to \nturn on the\ngenerator so"
+          "You need to \nventure down to \nturn on the\ngenerator."
         ],
         "__section": "text",
         "avatarId": "",
@@ -65,7 +65,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "6a491b10-d659-4cfd-8990-0cce84da4584"
+      "id": "b171efc6-973b-4a88-8bbd-710e4d71956a"
     },
     {
       "command": "EVENT_TEXT",
@@ -90,7 +90,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "a373f8b1-a2b1-49d0-8d7b-4a3c1515cf89"
+      "id": "9fa5cc50-e7dd-4389-8d89-9f66bd14a31c"
     },
     {
       "command": "EVENT_TEXT",
@@ -115,7 +115,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "cd1eef50-a229-4cdd-96db-c969406eba03"
+      "id": "82536ae3-468e-4a8f-9d92-06db36558ac6"
     }
   ],
   "startScript": [],
@@ -126,5 +126,5 @@
   "coordinateType": "tiles",
   "x": 9,
   "y": 3,
-  "_index": 0
+  "_index": 1
 }

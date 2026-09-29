@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_27",
-  "x": 488,
-  "y": 32,
+  "x": 560,
+  "y": 56,
   "script": [
     {
       "id": "95e69d98-4cc2-4b08-9fff-cc2cc4fed656",
@@ -25,22 +25,18 @@
       }
     },
     {
-      "command": "EVENT_MENU",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
-        "variable": "L0",
-        "items": 2,
-        "option1": "",
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "dialogue"
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
       },
-      "id": "84ec9a1f-588f-4014-b448-4820f3296183"
+      "children": {
+        "true": []
+      },
+      "id": "6dadcfce-2cec-4dd4-8702-10175e415085"
     }
   ],
   "playerHit1Script": [],

@@ -1,40 +1,32 @@
 {
   "_resourceType": "trigger",
-  "id": "4ffa01f8-3556-4fe0-b56c-9b4848eae26f",
+  "id": "085e028e-1683-4947-a8b9-bd274241ae2e",
   "name": "",
   "prefabId": "",
-  "x": 13,
-  "y": 1,
-  "symbol": "trigger_37",
+  "x": 40,
+  "y": 36,
+  "symbol": "trigger_19",
   "prefabScriptOverrides": {},
-  "width": 7,
-  "height": 2,
+  "width": 5,
+  "height": 1,
   "script": [],
   "leaveScript": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "text": [
-          "It's locked."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "sceneId": "22d7f387-5b9b-40d3-8214-aea29ba70179",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
       },
-      "id": "10d82cfd-5bbe-4bbf-8ce3-11274bb56e77"
+      "id": "ca26a996-da86-4231-b4e9-c270997f1eea"
     }
   ],
   "_index": 1
