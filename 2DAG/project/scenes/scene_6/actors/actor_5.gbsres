@@ -30,7 +30,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Hey, great job\ngetting past the\nfirst room."
+          "Hey! Great job\ngetting past the\nfirst room."
         ],
         "__section": "text",
         "avatarId": "",

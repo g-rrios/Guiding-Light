@@ -46,7 +46,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Avoid\nobstacles."
+          "Be careful to\navoid both\nobstacles and\nenemies."
         ],
         "__section": "text",
         "avatarId": "",

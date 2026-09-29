@@ -3,7 +3,7 @@
   "id": "6685f794-9122-483d-9e5f-6e13636f9672",
   "name": "",
   "prefabId": "",
-  "x": 26,
+  "x": 25,
   "y": 30,
   "symbol": "trigger_15",
   "prefabScriptOverrides": {},
@@ -17,7 +17,7 @@
         "sceneId": "0b22ca8d-a340-4dab-9288-d63763494d43",
         "x": {
           "type": "number",
-          "value": 3
+          "value": 5
         },
         "y": {
           "type": "number",
