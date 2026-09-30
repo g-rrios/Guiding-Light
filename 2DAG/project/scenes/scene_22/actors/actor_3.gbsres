@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 63,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
@@ -23,11 +23,11 @@
         "sceneId": "b06feabe-2ae0-474a-a54b-9f0dcb7f431b",
         "x": {
           "type": "number",
-          "value": 34
+          "value": 30
         },
         "y": {
           "type": "number",
-          "value": 37
+          "value": 34
         },
         "direction": "",
         "fadeSpeed": "2"
