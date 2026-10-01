@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a2a1f3b9-9f01-4041-b59c-4fafa4abfef1",
+  "name": "hallway_4_lit_up-export",
+  "symbol": "bg_hallway_4_lit_up_export",
+  "tileColors": "",
+  "filename": "hallway_4_lit_up-export.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

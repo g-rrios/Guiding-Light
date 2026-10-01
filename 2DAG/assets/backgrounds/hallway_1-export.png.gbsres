@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "840cec34-7f44-4d69-ac84-ca119cfb4ed0",
+  "name": "hallway_1-export",
+  "symbol": "bg_hallway_1_export",
+  "tileColors": "",
+  "filename": "hallway_1-export.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

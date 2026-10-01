@@ -27,6 +27,19 @@
         "fadeSpeed": "2"
       },
       "id": "84e761db-fb54-4228-b638-7f58723125f5"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 6,
+        "frequency": 200,
+        "duration": 4.25,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "5378e011-cb67-4fa0-b09b-e2f193655159"
     }
   ],
   "_index": 0

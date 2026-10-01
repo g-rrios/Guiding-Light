@@ -23,16 +23,29 @@
         "sceneId": "02f7d5f1-ba8f-4162-9e1f-cf4f9b1afb89",
         "x": {
           "type": "number",
-          "value": 11
+          "value": 13
         },
         "y": {
           "type": "number",
           "value": 4
         },
-        "direction": "",
+        "direction": "up",
         "fadeSpeed": "2"
       },
       "id": "69ea7a74-ae1d-44c6-a114-8b533024b7f8"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "82866763-a6f5-4b22-a7c6-355a36cab674"
     }
   ],
   "startScript": [],
@@ -42,6 +55,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 13,
-  "y": 4,
+  "y": 3,
   "_index": 1
 }

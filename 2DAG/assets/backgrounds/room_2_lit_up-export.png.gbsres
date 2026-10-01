@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d4b7fdf3-3411-4b38-975f-4b9d4a488d56",
+  "name": "room_2_lit_up-export",
+  "symbol": "bg_room_2_lit_up_export",
+  "tileColors": "",
+  "filename": "room_2_lit_up-export.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}
